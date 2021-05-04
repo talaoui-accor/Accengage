@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
     s.platform          = :ios
     s.source            = { :http => 'https://github.com/talaoui-accor/Accengage/raw/master/Accengage.zip' } 
     s.ios.deployment_target = '11.0'
-    s.ios.vendored_frameworks = 'Accengage.xcframework'
+    s.vendored_frameworks = 'Accengage.xcframework'
 end 
